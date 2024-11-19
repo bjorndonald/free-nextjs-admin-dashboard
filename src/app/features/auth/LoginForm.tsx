@@ -73,6 +73,12 @@ const LoginForm = () => {
               </div>
           </div>
 
+          <div className="mt-2 text-center">
+                  <Link href="/auth/forgot-password" className="text-primary">
+                      Forgot password?
+                  </Link>
+          </div>
+
           <div className="mb-5">
               <button
                   type="submit"
